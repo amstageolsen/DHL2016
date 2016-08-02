@@ -51,8 +51,7 @@ canvas {
 }
 
 .t-shirt {
-	max-width: 400px;
-	width: 50%;
+	max-width: 500px;
 	margin: 60px auto;
 
 	animation: appear 3s ease-in-out;
