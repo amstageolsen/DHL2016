@@ -8,6 +8,11 @@ var canvas = document.getElementById('canvas'),
 	stars = [],
 	count = 0,
 	maxStars = 3000;
+$( window ).resize(function() {
+	w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+	console.log("tets");
+});
 
 // START CANVAS CACHED GRADIENT
 var canvas2 = document.createElement('canvas');
